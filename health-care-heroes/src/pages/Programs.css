@@ -1,0 +1,48 @@
+.programs-container {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.programs-container h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #f1c40f;
+  text-align: center;
+}
+
+.program-card {
+  margin-bottom: 20px;
+  background-color: #34495e;
+  border: none;
+  border-radius: 8px;
+}
+
+.program-card img {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.program-card .btn-primary {
+  background-color: #f1c40f;
+  border: none;
+  color: #1e1e1e;
+}
+
+.program-card .btn-primary:hover {
+  background-color: #d4ac0d;
+}
+
+.form-control {
+  background-color: #34495e;
+  color: #ffffff;
+  border: 1px solid #f1c40f;
+}
+
+.form-control::placeholder {
+  color: #bdc3c7;
+}

@@ -1,0 +1,75 @@
+.about-us-container {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-us-container section {
+  margin-bottom: 60px;
+}
+
+.about-us-container h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.about-us-container p {
+  font-size: 1.2em;
+  line-height: 1.8;
+  color: #34495e;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-us-container ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #34495e;
+}
+
+.about-us-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+}
+
+.help-buttons {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.help-buttons button {
+  margin: 10px;
+}
+
+.volunteer-form, .donate-form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.volunteer-form h3, .donate-form h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-transition-enter {
+  opacity: 0;
+}
+.form-transition-enter-active {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+.form-transition-exit {
+  opacity: 1;
+}
+.form-transition-exit-active {
+  opacity: 0;
+  transition: opacity 300ms;
+}

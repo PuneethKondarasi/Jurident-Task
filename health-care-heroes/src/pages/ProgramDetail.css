@@ -1,0 +1,27 @@
+.program-detail-container {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.program-detail-container h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #f1c40f;
+}
+
+.program-detail-container p {
+  font-size: 1.2em;
+  line-height: 1.8;
+  color: #ecf0f1;
+}
+
+.program-image {
+  margin-bottom: 20px;
+  max-width: 100%;
+  border-radius: 5px;
+}
