@@ -31,10 +31,10 @@ const ContactUs = () => {
         <Col md={6}>
           <h3>Contact Details</h3>
           <p>
-            <strong>Address:</strong> 123 Health Street, Wellness City, HC 45678
+            <strong>Address:</strong> 123 Health Street, Vellore, India
           </p>
           <p>
-            <strong>Phone:</strong> +123 456 7890
+            <strong>Phone:</strong> +91 1234567890
           </p>
           <p>
             <strong>Email:</strong> contact@healthcareheroes.org
@@ -43,7 +43,7 @@ const ContactUs = () => {
           <div className="map-container">
             <iframe
               title="Google Map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509368!2d-122.41941568468175!3d37.77492977975854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808581fbff7e83b3%3A0x8b623e3e5b7b9776!2s123%20Health%20St%2C%20San%20Francisco%2C%20CA%2094103%2C%20USA!5e0!3m2!1sen!2sin!4v1628352340980!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3911.615504795611!2d79.1315568153179!3d12.93566769087905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad473b7c5e6cb3%3A0x4e25b7e7e089e9a3!2sVellore%2C%20Tamil%20Nadu%2C%20India!5e0!3m2!1sen!2sus!4v1691546949187!5m2!1sen!2sus"
               width="100%"
               height="350"
               frameBorder="0"
@@ -53,6 +53,7 @@ const ContactUs = () => {
               tabIndex="0"
             ></iframe>
           </div>
+
         </Col>
       </Row>
     </Container>

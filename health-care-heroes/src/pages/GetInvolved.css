@@ -79,13 +79,13 @@
 }
 
 .btn-secondary {
-  background-color: #810404;
+  background-color: #900e0e;
   border: none;
   color: #ffffff;
 }
 
 .btn-secondary:hover {
-  background-color: #34495e;
+  background-color: #570202;
 }
 button{
     display: flex;

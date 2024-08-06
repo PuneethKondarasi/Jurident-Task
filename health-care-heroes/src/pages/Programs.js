@@ -1,61 +1,49 @@
-import React, { useState } from 'react';
-import { Container, Row, Col, Card, Button, Form } from 'react-bootstrap';
+import React from 'react';
+import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './Programs.css';
 
 const programsData = [
-  // Example program data
   {
     id: 1,
-    title: 'Health Camp in Rural Area',
-    description: 'A comprehensive health camp providing free check-ups and treatments.',
-    status: 'Ongoing',
-    image: '/images/health-camp.jpg',
-    category: 'Health'
+    title: 'Community Health Program',
+    description: 'Providing essential health services to communities.',
+    // image: '../images/event1.jpg'
   },
   {
     id: 2,
-    title: 'Vaccination Drive for Children',
-    description: 'Vaccination program aimed at providing essential vaccines to children.',
-    status: 'Completed',
-    image: '/images/vaccination-drive.jpg',
-    category: 'Education'
+    title: 'Vaccination Drive',
+    description: 'Ensuring community-wide vaccination coverage.',
+    // image: '/images/program2.jpg'
   },
-  // Add more programs as needed
+  {
+    id: 3,
+    title: 'Nutritional Support Initiative',
+    description: 'Offering nutritional support to populations.',
+    // image: '/images/program3.jpg'
+  },
+  {
+    id: 4,
+    title: 'Mental Health Outreach',
+    description: 'Providing mental health resources and support to communities in need.',
+    // image: '/images/program4.jpg'
+  }
 ];
 
 const Programs = () => {
-  const [selectedCategory, setSelectedCategory] = useState('All');
-
-  const handleCategoryChange = (event) => {
-    setSelectedCategory(event.target.value);
-  };
-
-  const filteredPrograms = selectedCategory === 'All'
-    ? programsData
-    : programsData.filter(program => program.category === selectedCategory);
-
   return (
     <Container className="programs-container">
-      <h2>Our Programs</h2>
-      <Form.Group controlId="categoryFilter">
-        <Form.Label>Filter by Category</Form.Label>
-        <Form.Control as="select" value={selectedCategory} onChange={handleCategoryChange}>
-          <option>All</option>
-          <option>Health</option>
-          <option>Education</option>
-          <option>Community</option>
-          {/* Add more categories as needed */}
-        </Form.Control>
-      </Form.Group>
       <Row>
-        {filteredPrograms.map(program => (
-          <Col md={4} key={program.id}>
+        {programsData.map(program => (
+          <Col md={4} key={program.id} className="mb-4">
             <Card className="program-card">
-              <Card.Img variant="top" src={program.image} />
+              {/* <Card.Img variant="top" src={program.image} className="program-img" /> */}
               <Card.Body>
                 <Card.Title>{program.title}</Card.Title>
                 <Card.Text>{program.description}</Card.Text>
-                <Button variant="primary" href={`/programs/${program.id}`}>View Details</Button>
+                <Link to={`/programs/${program.id}`}>
+                  <Button variant="primary">View Details</Button>
+                </Link>
               </Card.Body>
             </Card>
           </Col>

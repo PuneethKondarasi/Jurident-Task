@@ -1,0 +1,29 @@
+.blog-post-container {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.blog-post-card {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post-card img {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.blog-post-card .btn-secondary {
+  background-color: #f1c40f;
+  border: none;
+  color: black;
+}
+
+
+.blog-post-card .btn-secondary:hover {
+  background-color: #d4ac0d;
+}

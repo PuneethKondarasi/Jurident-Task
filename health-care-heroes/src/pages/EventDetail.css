@@ -1,4 +1,4 @@
-.program-detail-container {
+.event-detail-container {
   padding: 40px 20px;
   max-width: 800px;
   margin: 0 auto;
@@ -18,19 +18,19 @@
   }
 }
 
-.program-detail-card {
+.event-detail-card {
   background-color: #34495e;
   border: none;
   border-radius: 8px;
 }
 
-.program-detail-img {
+.event-detail-img {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   transition: transform 0.3s ease;
 }
 
-.program-detail-img:hover {
+.event-detail-img:hover {
   transform: scale(1.05);
 }
 
@@ -43,4 +43,26 @@
 
 .back-button:hover {
   background-color: #d4ac0d;
+}
+
+.register-button {
+  background-color: #3498db;
+  border: none;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #2980b9;
+}
+
+.home-button {
+  background-color: #2c3e50;
+  border: none;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #1a242f;
 }

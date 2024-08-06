@@ -57,10 +57,11 @@ const GetInvolved = () => {
           <div className="donation-options">
             <h4>Donation Impact</h4>
             <ul>
-              <li><strong>$50</strong> provides basic health check-ups for one person.</li>
-              <li><strong>$100</strong> covers the cost of vaccinations for ten children.</li>
-              <li><strong>$500</strong> supports a full health camp in a remote area.</li>
+              <li><strong>₹1000</strong> provides basic health check-ups for one person.</li>
+              <li><strong>₹10000</strong> covers the cost of vaccinations for ten children.</li>
+              <li><strong>₹100000</strong> supports a full health camp in a remote area.</li>
             </ul>
+            <br />
             <Button variant="secondary" href="/donate">Donate Now</Button>
           </div>
         </Col>
