@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.99183fe2.css",
-    "main.js": "/react-gh-pages/static/js/main.6cf51097.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.99183fe2.css.map": "/react-gh-pages/static/css/main.99183fe2.css.map",
-    "main.6cf51097.js.map": "/react-gh-pages/static/js/main.6cf51097.js.map"
+    "main.css": "/Jurident-Task/static/css/main.99183fe2.css",
+    "main.js": "/Jurident-Task/static/js/main.6cf51097.js",
+    "index.html": "/Jurident-Task/index.html",
+    "main.99183fe2.css.map": "/Jurident-Task/static/css/main.99183fe2.css.map",
+    "main.6cf51097.js.map": "/Jurident-Task/static/js/main.6cf51097.js.map"
   },
   "entrypoints": [
     "static/css/main.99183fe2.css",
