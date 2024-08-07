@@ -1,26 +1,26 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
-import NavBar from './pages/NavBar.js';
-import Blog from './pages/Blog';
-import Events from './pages/Events';
-import BlogPost from './pages/BlogPost';
-import AboutUs from './pages/AboutUs';
-import Programs from './pages/Programs';
-import ProgramDetail from './pages/ProgramDetail';
-import GetInvolved from './pages/GetInvolved';
-import ContactUs from './pages/ContactUs';
-import LandingPage from './pages/LandingPage';
-import EventDetail from './pages/EventDetail';
-import Donate from './pages/Donate';
-import Footer from './pages/Footer';
+import AboutUs from './pages/About/AboutUs.js';
+import Blog from './pages/Blog/Blog.js';
+import BlogPost from './pages/Blog/BlogPost.js';
+import ContactUs from './pages/Contact/ContactUs.js';
+import Events from './pages/Event/Events.js';
+import EventDetail from './pages/Event/EventDetail.js';
+import NavBar from './pages/NavBar/NavBar.js';
+import Programs from './pages/Program/Programs.js';
+import ProgramDetail from './pages/Program/ProgramDetail.js';
+import GetInvolved from './pages/GetInvolved/GetInvolved.js';
+import LandingPage from './pages/Landing/LandingPage.js';
+import Donate from './pages/Donate/Donate.js';
+import Footer from './pages/Footer/Footer.js';
 
 function App() {
   return (
     <Router>
       <NavBar />
       <Routes>
-        <Route path="/" element={<LandingPage />} />
+        <Route exact path="/" element={<LandingPage />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:id" element={<BlogPost />} />
         <Route path="/events" element={<Events />} />

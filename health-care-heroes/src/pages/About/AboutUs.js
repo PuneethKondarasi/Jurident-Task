@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './AboutUs.css';
 
 const teamMembers = [
@@ -20,6 +21,9 @@ const teamMembers = [
 const AboutUs = () => {
   return (
     <Container className="about-us">
+      <div className="header">
+        <h1>About Us</h1>
+      </div>
       <section className="mission-section">
         <h1>Who We Are</h1>
         <p>Health Care Heroes is committed to providing essential health services to underserved communities. Our mission is to bridge the gap in healthcare access and improve the quality of life for those in need.</p>
@@ -60,7 +64,9 @@ const AboutUs = () => {
       <section className="get-involved-section">
         <h2>How You Can Help Us</h2>
         <p>Your support is vital to our mission. You can contribute by volunteering, making a donation, or spreading the word about our work. Every bit helps us in our endeavor to provide quality healthcare to those in need.</p>
-        <Button variant="primary" href="/get-involved">Get Involved</Button>
+        <Link to="/get-involved">
+          <Button variant="primary">Get Involved</Button>
+        </Link>
       </section>
     </Container>
   );

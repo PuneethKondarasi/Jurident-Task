@@ -4,6 +4,12 @@
   padding: 40px 20px;
 }
 
+.header{
+  text-align: center;
+  color: #f1c40f;
+  margin-bottom: 20px;
+}
+
 .mission-section, .vision-section, .team-section, .history-section, .health-camps-section, .get-involved-section {
   margin-bottom: 40px;
   animation: fadeIn 1s ease;

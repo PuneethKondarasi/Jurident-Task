@@ -1,4 +1,5 @@
 import React from 'react';
+import NavBar from '../NavBar/NavBar';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './LandingPage.css';
@@ -47,6 +48,7 @@ const eventsData = [
 ];
 
 const LandingPage = () => {
+  <NavBar />
   return (
     <div className="landing-page">
       <div className="hero-section">

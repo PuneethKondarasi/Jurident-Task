@@ -33,6 +33,9 @@ const programsData = [
 const Programs = () => {
   return (
     <Container className="programs-container">
+      <div className="header">
+        <h1>Our Programs</h1>
+      </div>
       <Row>
         {programsData.map(program => (
           <Col md={4} key={program.id} className="mb-4">

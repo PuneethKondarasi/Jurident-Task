@@ -48,3 +48,28 @@
 .donate-submit-button:hover {
   background-color: #d4ac0d;
 }
+
+.modal-content {
+  background-color: #333;
+  color: #f8f9fa;
+}
+
+.modal-header, .modal-footer {
+  border-color: #444;
+}
+
+.modal-header .modal-title {
+  color: #f8f9fa;
+}
+
+.modal-footer .btn-secondary {
+  color: #1e1e1e;
+  background-color:#f1c40f;
+  border-color: #777;
+}
+
+.modal-footer .btn-secondary:hover {
+  color: white;
+  background-color:#d4ac0d;
+  border-color: #888;
+}

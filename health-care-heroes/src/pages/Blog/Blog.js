@@ -41,6 +41,9 @@ const blogPosts = [
 const Blog = () => {
   return (
     <Container className="blog-container">
+      <div className="heading">
+        <h1 className="text-center">Blogs</h1>
+      </div>
       <Row>
         {blogPosts.map(post => (
           <Col md={4} key={post.id} className="mb-4">
