@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Jurident-Task/health-care-heroes/static/css/main.599a85a8.css",
-    "main.js": "/Jurident-Task/health-care-heroes/static/js/main.f03692e9.js",
-    "index.html": "/Jurident-Task/health-care-heroes/index.html",
-    "main.599a85a8.css.map": "/Jurident-Task/health-care-heroes/static/css/main.599a85a8.css.map",
-    "main.f03692e9.js.map": "/Jurident-Task/health-care-heroes/static/js/main.f03692e9.js.map"
+    "main.css": "/Jurident-Task/static/css/main.599a85a8.css",
+    "main.js": "/Jurident-Task/static/js/main.f03692e9.js",
+    "index.html": "/Jurident-Task/index.html",
+    "main.599a85a8.css.map": "/Jurident-Task/static/css/main.599a85a8.css.map",
+    "main.f03692e9.js.map": "/Jurident-Task/static/js/main.f03692e9.js.map"
   },
   "entrypoints": [
     "static/css/main.599a85a8.css",
