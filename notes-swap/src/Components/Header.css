@@ -2,9 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #000;
+  background-color: #000000;
   padding: 10px 20px;
-  color: white;
+  color: #ffffff;
+}
+
+.header-link{
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .logo {
@@ -12,6 +17,7 @@
   height: 122px;
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 
 .logo-image {
@@ -33,12 +39,12 @@
 
 .nav-links {
   display: flex;
+  padding-left: 440px;
   width: 270px;
   height: 24px;
   top: 39px;
   left: 812px;
   gap: 66px;
-  opacity: 0px;
 }
 
 .nav-link {
@@ -53,7 +59,6 @@
 
 .nav-link:hover {
   color: #30A9FA;
-
 }
 
 .user-profile .icon {
@@ -61,7 +66,7 @@
   height: 40px;
   top: 35px;
   left: 1130px;
-  padding: 10px 1.26px 0px 1.26px;
+  padding: 10px 1.26px 0px 48px;
   border: 2px 0px 0px 0px;
 }
 
@@ -70,10 +75,16 @@
   height: 38px;
   top: 35px;
   left: 1218px;
+  padding-left: 48px;
 }
 
 .icon {
   cursor: pointer;
+}
+
+.icon_class{
+  text-decoration: none;
+  color: white;
 }
 
 .header-buttons {
@@ -84,30 +95,36 @@
   top: 29px;
   left: 1328px;
   gap: 23px;
+  padding-left: 80px;
 }
-/* need to start from here */
+
 .offer-button{
+  padding: 8px 48px;
   font-family: Poppins;
-font-size: 16px;
-font-weight: 500;
-line-height: 24px;
-text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
   border: 1px solid white;
   background: transparent;
   color: white;
-  padding: 8px 16px;
   font-size: 16px;
-  border-radius: 15px;
+  border-radius: 30px;
   cursor: pointer;
 }
 
 .rent-button {
+  padding: 8px 48px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
   border: 1px solid white;
   background: transparent;
   color: white;
-  padding: 8px 16px;
   font-size: 16px;
-  border-radius: 5px;
+  border-radius: 30px;
   cursor: pointer;
 }
 

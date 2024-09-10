@@ -1,14 +1,16 @@
 import React from 'react';
 import Header from './Components/Header';
+import Footer from './Components/Footer';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <main style={{ padding: '20px', color: 'white' }}>
-        <h1>Welcome to Note Swap!</h1>
-        <p>This is where your main content will go.</p>
-      </main>
+      <div>
+        <h1>Notes Swap</h1>
+      </div>
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,153 @@
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 40px 20px;
+}
+
+.footer-name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-name{
+    padding-bottom: 60px;
+}
+
+.footer-title {
+    width: 233.47px;
+    height: 30px;
+    color: #FFFFFF;
+    font-family: Clash Display Variable;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -0.35555556416511536px;
+    text-align: left;
+}
+
+.footer-subtitle {
+    width: 166.43px;
+    height: 30px;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 70px;
+    letter-spacing: -0.35555556416511536px;
+    text-align: left;
+}
+
+.social-media p{
+    width: 241.56px;
+    height: 30px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 70px;
+    letter-spacing: -0.35555556416511536px;
+    text-align: left;
+}
+
+.social-icons {
+    display: flex;
+    gap: 34.67px;
+}
+
+.social-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.footer-contact .footer-subtitle {
+    width: 199.95px;
+    height: 30px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 70px;
+    letter-spacing: -0.35555556416511536px;
+    text-align: left;
+}
+
+.footer-contact .footer-number{
+    width: 263.52px;
+    height: 30px;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 70px;
+    letter-spacing: -0.35555556416511536px;
+    text-align: left;
+}
+
+.email{
+    width: 199.95px;
+    height: 30px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 70px;
+    letter-spacing: -0.35555556416511536px;
+    text-align: left;
+
+}
+
+.email .footer-email{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 70px;
+    text-align: left;
+}
+
+.footer-last{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-copyright{
+    width: 233.47px;
+    height: 30px;
+    font-family: Satoshi;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 70px;
+    letter-spacing: -0.35555556416511536px;
+    text-align: left;
+}
+
+.footer-country{
+    width: 199.95px;
+    height: 30px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 70px;
+    letter-spacing: -0.35555556416511536px;
+    text-align: left;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.footer-button {
+    background-color: #3b82f6;
+    color: white;
+    padding: 15px 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-button:hover {
+    background-color: #2563eb;
+}
