@@ -19,12 +19,14 @@ const Header = () => {
         <a href="/blogs" className="nav-link blogs">Blogs</a>
       </nav>
 
-      <div className="user-profile">
-        <a href='/account' className='icon_class'><FaUserCircle className="icon" /></a>
-      </div>
+      <div className='icons_div'>
+        <div className="user-profile">
+          <a href='/account' className='icon_class'><FaUserCircle className="icon" /></a>
+        </div>
 
-      <div className="header-search">
-        <a href='/notes' className='icon_class'><FaSearch className="icon" /></a>
+        <div className="header-search">
+          <a href='/notes' className='icon_class'><FaSearch className="icon" /></a>
+        </div>
       </div>
 
       <div className="header-buttons">

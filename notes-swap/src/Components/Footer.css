@@ -1,147 +1,124 @@
 .footer {
     background-color: #000000;
     color: #ffffff;
-    padding: 40px 20px;
+    padding: 4vh 4vw;
 }
 
-.footer-name{
+.footer-name {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 1vh;
 }
 
-.footer-links{
+.footer-links {
     display: flex;
     justify-content: space-between;
-}
-.footer-name{
-    padding-bottom: 60px;
+    flex-wrap: wrap;
 }
 
 .footer-title {
-    width: 233.47px;
-    height: 30px;
-    color: #FFFFFF;
-    font-family: Clash Display Variable;
-    font-size: 40px;
+    width: auto;
+    font-family: 'Clash Display Variable', sans-serif;
+    font-size: 2.25vw;
     font-weight: 700;
-    line-height: 70px;
-    letter-spacing: -0.35555556416511536px;
+    line-height: 1.5;
+    letter-spacing: -0.35px;
     text-align: left;
 }
 
 .footer-subtitle {
-    width: 166.43px;
-    height: 30px;
-    font-family: Poppins;
-    font-size: 25px;
+    width: auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.25vw;
     font-weight: 500;
-    line-height: 70px;
-    letter-spacing: -0.35555556416511536px;
+    line-height: 1.5;
+    letter-spacing: -0.35px;
     text-align: left;
 }
 
-.social-media p{
-    width: 241.56px;
-    height: 30px;
-    font-family: Poppins;
-    font-size: 30px;
+.social-media p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.75vw;
     font-weight: 500;
-    line-height: 70px;
-    letter-spacing: -0.35555556416511536px;
+    line-height: 1.5;
+    letter-spacing: -0.35px;
     text-align: left;
+}
+
+.socialmedia{
+    text-decoration: none;
+    color: white;
 }
 
 .social-icons {
     display: flex;
-    gap: 34.67px;
+    gap: 2vw;
 }
 
 .social-icon {
-    font-size: 24px;
+    font-size: 2.25vw;
     cursor: pointer;
 }
 
 .footer-contact .footer-subtitle {
-    width: 199.95px;
-    height: 30px;
-    font-family: Poppins;
-    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.75vw;
     font-weight: 500;
-    line-height: 70px;
-    letter-spacing: -0.35555556416511536px;
+    line-height: 1.5;
     text-align: left;
 }
 
-.footer-contact .footer-number{
-    width: 263.52px;
-    height: 30px;
-    font-family: Poppins;
-    font-size: 25px;
+.footer-contact .footer-number {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4vw;
     font-weight: 500;
-    line-height: 70px;
-    letter-spacing: -0.35555556416511536px;
+    line-height: 1.5;
     text-align: left;
 }
 
-.email{
-    width: 199.95px;
-    height: 30px;
-    font-family: Poppins;
-    font-size: 30px;
+.email .footer-email {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4vw;
     font-weight: 500;
-    line-height: 70px;
-    letter-spacing: -0.35555556416511536px;
-    text-align: left;
-
-}
-
-.email .footer-email{
-    font-family: Poppins;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 70px;
+    line-height: 1.5;
     text-align: left;
 }
 
-.footer-last{
+.footer-last {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.footer-copyright{
-    width: 233.47px;
-    height: 30px;
-    font-family: Satoshi;
-    font-size: 30px;
+.footer-copyright {
+    font-family: 'Satoshi', sans-serif;
+    font-size: 2vw;
     font-weight: 300;
-    line-height: 70px;
-    letter-spacing: -0.35555556416511536px;
+    line-height: 1.5;
     text-align: left;
 }
 
-.footer-country{
-    width: 199.95px;
-    height: 30px;
-    font-family: Poppins;
-    font-size: 30px;
+.footer-country {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vw;
     font-weight: 500;
-    line-height: 70px;
-    letter-spacing: -0.35555556416511536px;
+    line-height: 1.5;
     text-align: left;
 }
 
 .footer-bottom {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 4vh;
     width: 100%;
 }
 
 .footer-button {
     background-color: #3b82f6;
     color: white;
-    padding: 15px 40px;
+    padding: 2vh 5vw;
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-size: 1.6vw;
     font-weight: 500;
     border-radius: 30px;
     border: none;
@@ -149,5 +126,130 @@
 }
 
 .footer-button:hover {
-    background-color: #2563eb;
+    background-color: #1c57d5;
+}
+
+/* @media (max-width: 1280px){
+    .footer-title {
+        font-size: 3vw;
+    }
+
+    .footer-subtitle, .social-media p, .footer-contact .footer-subtitle {
+        font-size: 2.5vw;
+    }
+
+    .footer-contact .footer-number {
+        font-size: 1.5vw;
+    }
+
+    .email .footer-email {
+        font-size: 1.5vw;
+    }
+
+    .social-icons {
+        gap: 2.5vw;
+    }
+
+    .social-icon {
+        font-size: 2.5vw;
+    }
+
+    .footer-button {
+        font-size: 1.8vw;
+        padding: 2vh 6vw;
+    }
+
+    .footer-last {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-copyright, .footer-country {
+        font-size: 2.5vw;
+    }
+} */
+
+
+@media screen and (max-width: 768px) {
+    .footer-title {
+        font-size: 4vw;
+    }
+
+    .footer-subtitle, .social-media p, .footer-contact .footer-subtitle {
+        font-size: 3.5vw;
+    }
+
+    .footer-contact .footer-number {
+        font-size: 2vw;
+    }
+
+    .email .footer-email {
+        font-size: 2vw;
+    }
+
+    .social-icons {
+        gap: 3.5vw;
+    }
+
+    .social-icon {
+        font-size: 3.5vw;
+    }
+
+    .footer-button {
+        font-size: 2.5vw;
+        padding: 2vh 8vw;
+    }
+
+    .footer-last {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-copyright, .footer-country {
+        font-size: 3vw;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .footer-title {
+        font-size: 3.5vw;
+    }
+
+    .footer-subtitle, .social-media p, .footer-contact .footer-subtitle {
+        font-size: 3vw;
+    }
+
+    .footer-contact .footer-number {
+        font-size: 1.5vw;
+    }
+
+    .email .footer-email {
+        font-size: 1.5vw;
+    }
+
+    .social-icons {
+        gap: 3vw;
+    }
+
+    .social-icon {
+        font-size: 3vw;
+    }
+
+    .footer-button {
+        font-size: 2vw;
+        padding: 2vh 8vw;
+    }
+
+    .footer-last {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-copyright, .footer-country {
+        font-size: 2.5vw;
+    }
 }

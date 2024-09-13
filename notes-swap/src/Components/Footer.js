@@ -3,6 +3,20 @@ import { FaTwitter, FaInstagram, FaFacebookF } from 'react-icons/fa';
 import './Footer.css';
 
 const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const copyToClipboard = (text) => {
+    navigator.clipboard.writeText(text)
+      .then(() => {
+        alert('Copied to clipboard!');
+      })
+      .catch((err) => {
+        console.error('Failed to copy text: ', err);
+      });
+  };
+
   return (
     <footer className="footer">
         <div className="footer-name">
@@ -10,7 +24,9 @@ const Footer = () => {
                 <h2 className="footer-title">NoteSwap</h2>
             </div>
             <div className="footer-about">
-                <p className='footer-subtitle'>Back to top ↑</p>
+                <p className='footer-subtitle' onClick={scrollToTop} style={{ cursor: 'pointer' }}>
+                  Back to top ↑
+                </p>
             </div>
         </div>
         <div className='footer-links'>
@@ -18,22 +34,30 @@ const Footer = () => {
                 <div className="social-media">
                     <p className="footer-subtitle">Social Media</p>
                     <div className="social-icons">
-                        <FaTwitter className="social-icon" />
-                        <FaInstagram className="social-icon" />
-                        <FaFacebookF className="social-icon" />
+                        <a href='https://www.twitter.com/' className='socialmedia'><FaTwitter className="social-icon" /></a>
+                        <a href='https://www.instagram.com/' className='socialmedia'><FaInstagram className="social-icon" /></a>
+                        <a href='https://www.facebook.com' className='socialmedia'><FaFacebookF className="social-icon" /></a>
                     </div>
                 </div>
                 <div className="footer-contact">
                     <p className="footer-subtitle">Phone</p>
-                    <p className='footer-number'>+91 63861 89089</p>
-                    <p className='footer-number'>+91 78400 99836</p>
+                    <p className='footer-number' onClick={() => copyToClipboard('+91 63861 89089')} style={{ cursor: 'pointer' }}>
+                      +91 63861 89089
+                    </p>
+                    <p className='footer-number' onClick={() => copyToClipboard('+91 78400 99836')} style={{ cursor: 'pointer' }}>
+                      +91 78400 99836
+                    </p>
                 </div>
             </div>
             <div className='email'>
                 <p className="footer-subtitle">E-Mail</p>
-                <p className='footer-email'>jurudentyi@gmail.com</p>
+                <p className='footer-email' onClick={() => copyToClipboard('jurudentyi@gmail.com')} style={{ cursor: 'pointer' }}>
+                  jurudentyi@gmail.com
+                </p>
                 <p className="footer-subtitle">Support</p>
-                <p className='footer-email'>Connect@valsctotech.com</p>
+                <p className='footer-email' onClick={() => copyToClipboard('Connect@valsctotech.com')} style={{ cursor: 'pointer' }}>
+                  Connect@valsctotech.com
+                </p>
             </div>
         </div>
         <hr />
@@ -48,9 +72,11 @@ const Footer = () => {
         <br />
         <br />
         <div className="footer-bottom">
-          <button className="footer-button">
-            ⟶ Check out more Services by Valsco Tech
-          </button>
+          <a href='https://www.valscotech.com/'>
+            <button className="footer-button">
+              ⟶ Check out more Services by Valsco Tech
+            </button>
+          </a>
         </div>
     </footer>
   );
