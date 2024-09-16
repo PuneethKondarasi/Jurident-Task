@@ -51,13 +51,13 @@ const Footer = () => {
             </div>
             <div className='email'>
                 <p className="footer-subtitle">E-Mail</p>
-                <p className='footer-email' onClick={() => copyToClipboard('jurudentyi@gmail.com')} style={{ cursor: 'pointer' }}>
+                <a href="mailto:jurudentyi@gmail.com" className='footer-email' style={{ cursor: 'pointer' }}>
                   jurudentyi@gmail.com
-                </p>
+                </a>
                 <p className="footer-subtitle">Support</p>
-                <p className='footer-email' onClick={() => copyToClipboard('Connect@valsctotech.com')} style={{ cursor: 'pointer' }}>
+                <a href="mailto:Connect@valsctotech.com" className='footer-email' style={{ cursor: 'pointer' }}>
                   Connect@valsctotech.com
-                </p>
+                </a>
             </div>
         </div>
         <hr />
@@ -72,7 +72,7 @@ const Footer = () => {
         <br />
         <br />
         <div className="footer-bottom">
-          <a href='https://www.valscotech.com/'>
+          <a href='https://www.valscotech.com/' target="_blank" rel="noopener noreferrer">
             <button className="footer-button">
               ⟶ Check out more Services by Valsco Tech
             </button>

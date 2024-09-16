@@ -7,7 +7,7 @@
   color: #ffffff;
 }
 
-.icons_div{
+.icons_div {
   display: flex;
   justify-content: center;
 }
@@ -112,73 +112,41 @@
   color: white;
 }
 
-@media screen and (max-width: 1200px) {
-  .logo-text {
-    font-size: 2.5vw;
-  }
-
-  .nav-link {
-    font-size: 1.4vw;
-  }
-
-  .header-buttons {
-    gap: 1.25vw;
-  }
+.hamburger-menu {
+  display: none;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
-  .header {
+  .nav-links {
+    display: none;
     flex-direction: column;
     align-items: center;
-    padding: 2vh 2vw;
-  }
-
-  .icons_div{
-    display: flex;
-    justify-content: center;
+    position: absolute;
+    top: 80px;
+    right: 0;
     width: 100%;
+    background-color: #000;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(100%);
   }
 
-  .logo {
+  .nav-links.active {
     display: flex;
-    justify-content: space-between;
-    width: 90%;
-    margin-bottom: 10px;
-    align-items: center;
-  }
-
-  .logo-image {
-    width: 12vw;
-  }
-
-  .logo-text {
-    font-size: 3vw;
-  }
-
-  .nav-links {
-    display: flex;
-    justify-content: center;
-    gap: 3vw;
-    margin-top: 10px;
+    transform: translateX(0);
   }
 
   .nav-link {
-    font-size: 2.8vw;
     padding: 10px;
-  }
-
-  .header-buttons {
-    display: flex;
-    gap: 2vw;
-    margin-top: 10px;
-    justify-content: center;
-    width: 90%;
-  }
-
-  .offer-button,
-  .rent-button {
     font-size: 2.5vw;
-    padding: 1vw 4vw;
+  }
+
+  .icons_div {
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
   }
 
   .user-profile .icon,
@@ -186,55 +154,37 @@
     width: 6vw;
   }
 
-}
-
-@media screen and (max-width: 420px) {
-  .header {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2vh 2vw;
-    width: 100%;
-  }
-
-  .logo {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-
-  .logo-image {
-    width: 20vw;
-    margin-bottom: 10px;
-  }
-
-  .logo-text {
-    font-size: 6vw;
-  }
-
-  .nav-links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 6px;
-    margin-top: 20px;
-  }
-
-  .nav-link {
-    font-size: 4.5vw;
-    padding: 4px 0;
-    text-align: center;
+  .hamburger-menu {
+    display: block;
   }
 
   .header-buttons {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    margin-top: 20px;
-    width: 100%;
+    justify-content: center;
+    gap: 2vw;
+    margin-top: 10px;
+  }
+
+  .offer-button,
+  .rent-button {
+    font-size: 2.5vw;
+    padding: 1vw 4vw;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .nav-links {
+    top: 60px;
+  }
+
+  .nav-link {
+    font-size: 5vw;
+    padding: 10px;
+  }
+
+  .user-profile .icon,
+  .header-search .icon {
+    width: 8vw;
   }
 
   .offer-button,
@@ -242,15 +192,4 @@
     font-size: 4vw;
     padding: 2vw 5vw;
   }
-
-  .user-profile .icon,
-  .header-search .icon {
-    width: 8vw;
-    margin-top: 10px;
-  }
-
-  .hamburger-menu {
-    display: none; /* Not needed, as we're not using the hamburger menu */
-  }
 }
-
