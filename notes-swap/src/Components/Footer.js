@@ -34,9 +34,9 @@ const Footer = () => {
                 <div className="social-media">
                     <p className="footer-subtitle">Social Media</p>
                     <div className="social-icons">
-                        <a href='https://www.twitter.com/' className='socialmedia'><FaTwitter className="social-icon" /></a>
-                        <a href='https://www.instagram.com/' className='socialmedia'><FaInstagram className="social-icon" /></a>
-                        <a href='https://www.facebook.com' className='socialmedia'><FaFacebookF className="social-icon" /></a>
+                        <a href='https://www.twitter.com/' className='socialmedia' target="_blank" rel="noopener noreferrer"><FaTwitter className="social-icon" /></a>
+                        <a href='https://www.instagram.com/' className='socialmedia' target="_blank" rel="noopener noreferrer"><FaInstagram className="social-icon" /></a>
+                        <a href='https://www.facebook.com' className='socialmedia' target="_blank" rel="noopener noreferrer"><FaFacebookF className="social-icon" /></a>
                     </div>
                 </div>
                 <div className="footer-contact">
