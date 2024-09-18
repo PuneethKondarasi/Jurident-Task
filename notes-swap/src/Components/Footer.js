@@ -74,7 +74,7 @@ const Footer = () => {
         <div className="footer-bottom">
           <a href='https://www.valscotech.com/' target="_blank" rel="noopener noreferrer">
             <button className="footer-button">
-              ⟶ Check out more Services by Valsco Tech
+              ↘ Check out more Services by Valsco Tech
             </button>
           </a>
         </div>

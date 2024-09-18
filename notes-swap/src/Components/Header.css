@@ -151,7 +151,7 @@
 
   .user-profile .icon,
   .header-search .icon {
-    width: 6vw;
+    width: 4vw;
   }
 
   .hamburger-menu {
@@ -178,13 +178,13 @@
   }
 
   .nav-link {
-    font-size: 5vw;
+    font-size: 3vw;
     padding: 10px;
   }
 
   .user-profile .icon,
   .header-search .icon {
-    width: 8vw;
+    width: 4vw;
   }
 
   .offer-button,
